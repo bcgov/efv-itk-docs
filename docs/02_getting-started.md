@@ -2,7 +2,7 @@
 
 Use this page to decide whether EFV may be useful for your program or service.
 
-EFV is still developing. The best first step is to contact the EFV team with a clear use case. The team can help determine whether EFV is a good fit, whether an existing verification factor is available, and what other teams or approvals may be involved.
+EFV is still developing. The best first step is to [contact the EFV team](mailto:justin.hume@gov.bc.ca) with a clear use case. The team can help determine whether EFV is a good fit, whether an existing verification factor is available, and what other teams or approvals may be involved.
 
 ## When EFV may be useful
 
