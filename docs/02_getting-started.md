@@ -59,4 +59,4 @@ Start with the eligibility fact you need to check, how you check it today, and w
 
 If you already know the potential data source or provider, intended use, legal authority, consent or notice requirements, privacy and security considerations, or agreement needs, include those as well. You do not need to have every requirement resolved before contacting the EFV team.
 
-To discuss whether EFV may be a fit for your program or service, contact the EFV team. 
+To discuss whether EFV may be a fit for your program or service, [contact the EFV team](mailto:justin.hume@gov.bc.ca). 
