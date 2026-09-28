@@ -53,11 +53,11 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: bcgov/devhub-techdocs-publish@stable
         with:
-          publish: 'false'
+          publish: 'true'
           # A manual destination takes precedence over the selected branch.
-          # production: ${{ ((github.event_name == 'workflow_dispatch' && inputs.deploy_location == 'prod') || (github.event_name == 'push' && github.ref == 'refs/heads/main')) && 'true' || 'false' }}
-          # bucket_name: ${{ secrets.TECHDOCS_S3_BUCKET_NAME }}
-          # s3_access_key_id: ${{ secrets.TECHDOCS_AWS_ACCESS_KEY_ID }}
-          # s3_secret_access_key: ${{ secrets.TECHDOCS_AWS_SECRET_ACCESS_KEY }}
-          # s3_region: ${{ secrets.TECHDOCS_AWS_REGION }}
-          # s3_endpoint: ${{ secrets.TECHDOCS_AWS_ENDPOINT }}
+          production: ${{ ((github.event_name == 'workflow_dispatch' && inputs.deploy_location == 'prod') || (github.event_name == 'push' && github.ref == 'refs/heads/main')) && 'true' || 'false' }}
+          bucket_name: ${{ secrets.TECHDOCS_S3_BUCKET_NAME }}
+          s3_access_key_id: ${{ secrets.TECHDOCS_AWS_ACCESS_KEY_ID }}
+          s3_secret_access_key: ${{ secrets.TECHDOCS_AWS_SECRET_ACCESS_KEY }}
+          s3_region: ${{ secrets.TECHDOCS_AWS_REGION }}
+          s3_endpoint: ${{ secrets.TECHDOCS_AWS_ENDPOINT }}
