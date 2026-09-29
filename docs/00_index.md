@@ -1,5 +1,56 @@
 # Eligibility Factor Verification (EFV)
 
-Coming soon.
+## What it is 
 
-We are preparing the Eligibility Factor Verification documentation. Check back for updates.
+Eligibility Factor Verification, or EFV, helps government programs check specific facts used in eligibility decisions. 
+
+EFV is intended for situations where a program needs to verify information through an approved or trusted source, instead of relying only on applicant-submitted documents or manual review. 
+
+EFV can help programs reduce repeated document checks, support more consistent decisions, and keep a record of what was checked, when, and against what source. 
+
+EFV does not decide if someone is eligible for a program. It is not a program rule engine and does not approve or deny applications. Programs still own their eligibility rules and make the final decision. 
+
+## Who this is for 
+
+EFV supports both those building eligibility systems and those responsible for program outcomes. 
+
+### Primary audience 
+
+- Developers building eligibility tools and integrations 
+- Solution architects designing automated adjudication systems 
+
+### Secondary audience 
+
+- Product owners managing benefit programs 
+- Program and policy leads defining eligibility criteria 
+- Adjudicators and intake staff using decision-support tools 
+
+## When to use Eligibility Factor Verification 
+
+EFV may be useful when your program needs to check a specific fact used in an eligibility decision. 
+
+EFV may help when your program wants to: 
+
+- Use a trusted source instead of applicant-submitted documents 
+- Reduce manual document review or staff follow-up 
+- Support more consistent decisions 
+- Keep a record of what was checked, when, and against what source 
+- Help staff focus on exceptions or higher-risk cases 
+- Reuse a verification pattern that may also help other programs 
+
+## How it works (high-level) 
+
+- A program needs to confirm whether an applicant meets a specific eligibility requirement. 
+- With EFV, the program requests a verification check through a trusted Authoritative Data source.  
+- The program receives a result and supporting details.  
+- The program applies its own rules and decides what happens next. 
+
+## Where to go next 
+
+See the EFV documentation for more detailed information: 
+
+1. [Introduction](01_introduction.md)
+2. [Getting Started](02_getting-started.md)
+3. [Eligibility Factors](03_.eligibility-factors.md)
+    - [Income Verification](03_1_income-verification.md)
+4. [Next Steps](04_next-steps.md)
