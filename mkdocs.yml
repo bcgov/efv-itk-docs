@@ -4,11 +4,12 @@ docs_dir: "docs"
 repo_url: "https://github.com/bcgov/efv-itk-docs"
 edit_uri: edit/main/docs/
 nav:
-  - Home: index.md
-  - Getting Started: getting-started.md
-  - Eligibilty Factors: eligibility-factors.md
-      - Income Verification: income-verification.md
-  - Support: support.md    
+  - Introduction: index.md
+  - Getting started: getting-started.md
+  - Eligibility factors:
+      - Overview: eligibility-factors.md
+      - Income verification: income-verification.md
+  - Support: support.md  
 
 plugins:
   - techdocs-core
