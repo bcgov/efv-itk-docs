@@ -1,56 +1,25 @@
-# Eligibility Factor Verification (EFV)
+# Introduction
 
-## What it is 
+Eligibility Factor Verification, or EFV, helps government programs check specific facts used in eligibility decisions.
 
-Eligibility Factor Verification, or EFV, helps government programs check specific facts used in eligibility decisions. 
+Many programs need to confirm similar things, such as income, residency, or other information an applicant provides. Today, this can involve manual document review, screenshots, forms, or staff follow-up. EFV is intended to reduce that effort by helping programs check certain facts against approved or trusted data sources, where available.
 
-EFV is intended for situations where a program needs to verify information through an approved or trusted source, instead of relying only on applicant-submitted documents or manual review. 
+EFV does not decide if someone is eligible for a program. EFV is not a program rule engine. It does not approve or deny applications. It helps check facts that a program may use in its own decision process. The program still owns its eligibility rules and makes the final decision.
 
-EFV can help programs reduce repeated document checks, support more consistent decisions, and keep a record of what was checked, when, and against what source. 
+EFV can support a program by returning a verification result and related information, such as the source used, when the check happened, and any limits or caveats that apply. Program staff or systems can then use that result to support a decision, focus review on exceptions, or reduce the need for applicants to provide documents. EFV is in early development. The first focus is income verification.
 
-EFV does not decide if someone is eligible for a program. It is not a program rule engine and does not approve or deny applications. Programs still own their eligibility rules and make the final decision. 
+Future eligibility factors may be explored over time based on:
+- program need
+- source availability
+- agreements
+- policy authority
+- privacy and security requirements
+- technical feasibility
 
-## Who this is for 
+## Example
 
-EFV supports both those building eligibility systems and those responsible for program outcomes. 
+A program may need to confirm whether an applicant meets an income rule.
 
-### Primary audience 
+Without EFV, the applicant may need to upload tax documents, and staff may need to review them manually.
 
-- Developers building eligibility tools and integrations 
-- Solution architects designing automated adjudication systems 
-
-### Secondary audience 
-
-- Product owners managing benefit programs 
-- Program and policy leads defining eligibility criteria 
-- Adjudicators and intake staff using decision-support tools 
-
-## When to use Eligibility Factor Verification 
-
-EFV may be useful when your program needs to check a specific fact used in an eligibility decision. 
-
-EFV may help when your program wants to: 
-
-- Use a trusted source instead of applicant-submitted documents 
-- Reduce manual document review or staff follow-up 
-- Support more consistent decisions 
-- Keep a record of what was checked, when, and against what source 
-- Help staff focus on exceptions or higher-risk cases 
-- Reuse a verification pattern that may also help other programs 
-
-## How it works (high-level) 
-
-- A program needs to confirm whether an applicant meets a specific eligibility requirement. 
-- With EFV, the program requests a verification check through a trusted Authoritative Data source.  
-- The program receives a result and supporting details.  
-- The program applies its own rules and decides what happens next. 
-
-## Where to go next 
-
-See the EFV documentation for more detailed information: 
-
-1. [Introduction](01_introduction.md)
-2. [Getting Started](02_getting-started.md)
-3. [Eligibility Factors](03_.eligibility-factors.md)
-    - [Income Verification](03_1_income-verification.md)
-4. [Next Steps](04_next-steps.md)
+With EFV, the program may be able to request an income verification check through a trusted source. The program receives a result and supporting details. The program then applies its own rules and decides what happens next.
