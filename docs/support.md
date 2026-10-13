@@ -1,4 +1,4 @@
-# Support and Next Steps
+# Support
 
 EFV is still developing. Support channels and service expectations will be added as they are confirmed.
 
